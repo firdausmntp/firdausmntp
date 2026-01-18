@@ -106,7 +106,7 @@ hobbies:
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=firdausmntp&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/firdausmntp">
-    <img height="180em" src="https://streak-stats.demolab.com?user=firdausmntp&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="GitHub Streak"/>
+    <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=firdausmntp&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="GitHub Streak"/>
   </a>
   
 </div>
