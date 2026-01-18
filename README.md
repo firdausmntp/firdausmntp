@@ -5,7 +5,7 @@
 
   <!-- Typing Animation -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%F0%9F%91%8B+Welcome+to+my+Digital+Workshop!;%F0%9F%92%BB+Building+the+future%2C+one+line+at+a+time;%F0%9F%8C%9F+Let's+create+something+extraordinary+together!" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%F0%9F%91%8B+Welcome+to+my+Digital+Workshop!;%F0%9F%92%BB+Building+the+future%2C+one+line+at+a+time;%F0%9F%8C%9F+Let's+create+something+extraordinary+together!" alt="Typing SVG" />
   </a>
 
   <!-- Social Badges -->
@@ -44,10 +44,10 @@ currently_learning: ["Python", "PHP", "AI/ML", "Cloud Computing"]
 looking_to_collaborate: Open-source projects & Tech startups
 ask_me_about: ["Web Development", "API Design", "Problem Solving"]
 
-fun_facts:
-  - Always exploring new technologies
-  - Coffee-powered developer ☕
-  - Love hiking at Gunung Bromo & Kelud 🏔️
+hobbies:
+  - 🌍 Exploring new places & adventures
+  - 💡 Discovering cutting-edge technologies
+  - 🎮 Gaming in free time
 ```
 
 <br clear="both"/>
@@ -88,8 +88,6 @@ fun_facts:
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" alt="Snake" width="30" /> Contribution Snake
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/firdausmntp/firdausmntp/output/github-snake-dark.svg" />
@@ -98,67 +96,25 @@ fun_facts:
   </picture>
 </div>
 
-> ⚠️ **Note:** To enable the snake animation, create a GitHub Action in your profile repository. See setup instructions below.
-
-<details>
-<summary>📝 <b>How to Setup Snake Animation</b></summary>
-
-1. **Create a new file** in your profile repo: `.github/workflows/snake.yml`
-2. **Add this workflow:**
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight
-  workflow_dispatch: # Allows manual trigger
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Generate Snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-3. **Run the workflow** manually from Actions tab
-4. **Done!** The snake will update daily automatically
-
-</details>
-
 ---
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Chart" width="30" /> GitHub Analytics
 
 <div align="center">
   
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=firdausmntp&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=firdausmntp&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="GitHub Streak" />
+  <a href="https://github.com/firdausmntp">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=firdausmntp&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+  </a>
+  <a href="https://github.com/firdausmntp">
+    <img height="180em" src="https://streak-stats.demolab.com?user=firdausmntp&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="GitHub Streak"/>
+  </a>
   
 </div>
 
 <div align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=firdausmntp&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+  <a href="https://github.com/firdausmntp">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=firdausmntp&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+  </a>
 </div>
 
 ---
@@ -166,25 +122,9 @@ jobs:
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="30" /> Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=firdausmntp&bg_color=0D1117&color=6366F1&line=6366F1&point=FFFFFF&area=true&hide_border=true&area_color=6366F1" alt="Activity Graph" width="100%"/>
-</div>
-
----
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="30" /> GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=firdausmntp&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
-</div>
-
----
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" alt="Idea" width="30" /> Featured Projects
-
-<div align="center">
-  
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=firdausmntp&repo=firdausmntp.github.io&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=c9d1d9)](https://github.com/firdausmntp/firdausmntp.github.io)
-
+  <a href="https://github.com/firdausmntp">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=firdausmntp&bg_color=0D1117&color=6366F1&line=6366F1&point=FFFFFF&area=true&hide_border=true&area_color=6366F1" alt="Activity Graph" width="100%"/>
+  </a>
 </div>
 
 ---
